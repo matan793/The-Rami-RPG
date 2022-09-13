@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-public class Mover : MonoBehaviour
+public class FollowCamera : MonoBehaviour
 {
-    public Transform target;
-
+    [SerializeField] Transform target;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +14,6 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<NavMeshAgent>().SetDestination(target.position);
+        transform.position = target.position;
     }
 }
