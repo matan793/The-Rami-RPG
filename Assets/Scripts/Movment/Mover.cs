@@ -1,12 +1,15 @@
+using RPG.Combat;
+using RPG;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using RPG.Core;
 
 namespace RPG.Movment
 {
-    public class Mover : MonoBehaviour
+    public class Mover : MonoBehaviour, Core.IAction
     {
         public Transform target;
 
@@ -40,10 +43,22 @@ namespace RPG.Movment
         }
         public void StopMovment()
         {
+           
             GetComponent<NavMeshAgent>().isStopped = true;
+        }
+        public void StartMoving(Vector3 dest)
+        {
+            GetComponent<ActionManeger>().StartAction(this);
+            GetComponent<Fighter>().Cancel();
+            MoveTo(dest);
+        }
+        public void Cancel()
+        {
+            print("nigger");
         }
         public void MoveTo(Vector3 dest)
         {
+            
             GetComponent<NavMeshAgent>().destination = dest;
             GetComponent<NavMeshAgent>().isStopped = false;
         }

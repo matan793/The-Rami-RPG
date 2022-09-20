@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 83
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1270
+  m_LastSelectedObjectID: -1254
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,9 +534,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.7080145, y: 14.798432, z: -7.1326475}
+    m_Target: {x: 1.5247254, y: 2.6216495, z: 1.8790956}
     speed: 2
-    m_Value: {x: 11.7080145, y: 14.798432, z: -7.1326475}
+    m_Value: {x: 1.5247254, y: 2.6216495, z: 1.8790956}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -583,13 +583,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.4352981, y: -0.23622096, z: 0.119485185, w: -0.8605326}
+    m_Target: {x: -0.2781757, y: -0.28626606, z: 0.08722272, w: -0.91276616}
     speed: 2
-    m_Value: {x: -0.43657142, y: -0.23603226, z: 0.11983477, w: -0.8598452}
+    m_Value: {x: -0.2781646, y: -0.2862546, z: 0.08721924, w: -0.9127297}
   m_Size:
-    m_Target: 229.85301
+    m_Target: 3.1628914
     speed: 2
-    m_Value: 240.68378
+    m_Value: 3.1628914
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -645,8 +645,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1afbffff
-      m_LastClickedID: -1254
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -804,22 +804,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Combat
+    - Assets/Scripts/Core
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Combat
+  - Assets/Scripts/Core
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\final-project\THE-RAMI-RPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc660000
-    m_LastClickedID: 26332
-    m_ExpandedIDs: 00000000d85d0000da5d0000dc5d0000
+    m_SelectedIDs: 0a5e0000
+    m_LastClickedID: 24074
+    m_ExpandedIDs: 00000000d85d0000da5d0000dc5d0000025e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -872,9 +872,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 125e0000
+    m_LastClickedInstanceID: 24082
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
